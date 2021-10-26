@@ -7,9 +7,9 @@ public class userRegistrationTest {
     private Assertions Assert;
 
     @Test
-    public void givenEmailWhenShouldReturnTrue() {
+    public void givenPhoneNumberWhenShouldReturnTrue() {
         userRegistration userRegistration = new userRegistration();
-        boolean userTest = userRegistration.email();
+        boolean userTest = userRegistration.phoneNumber();
         Assert.assertTrue(userTest);
     }
 }
