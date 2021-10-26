@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.userRegistration.userRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-26T20:28:59" hostname="LAPTOP-LTNNVO58" time="0.019">
+<testsuite name="com.bl.userRegistration.userRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-26T20:36:49" hostname="LAPTOP-LTNNVO58" time="0.021">
   <properties/>
-  <testcase name="givenPassword_WhenUpperCase_ShouldReturnTrue()" classname="com.bl.userRegistration.userRegistrationTest" time="0.019"/>
+  <testcase name="givenPassword_WhenOneNumeric_ShouldReturnTrue()" classname="com.bl.userRegistration.userRegistrationTest" time="0.021"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
