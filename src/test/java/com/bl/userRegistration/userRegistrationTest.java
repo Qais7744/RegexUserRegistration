@@ -3,12 +3,12 @@ package com.bl.userRegistration;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class userRegistrationTest {
+public class UserRegistrationTest {
     private Assertions Assert;
 
     @Test
     public void givenEmailWhenShouldReturnTrue() {
-        userRegistration userRegistration = new userRegistration();
+        UserRegistration userRegistration = new UserRegistration();
         boolean userTest = userRegistration.email();
         Assert.assertTrue(userTest);
     }
