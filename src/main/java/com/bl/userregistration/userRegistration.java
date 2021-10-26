@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 public class userRegistration {
 
     public boolean passwordOneNumeric() {
-        boolean matchesString = Pattern.matches("^[A-Z{1}0-9{1}a-z]{8}$", "Al9amash");
+        boolean matchesString = Pattern.matches("^[A-Z0-9a-z]{7}[~!@#$%^&*()_+{}:;]{1}$", "As9kmaf&");
         return matchesString;
     }
 }
