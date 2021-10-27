@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 public class UserRegistration {
 
     public boolean passwordSpecialCharacter() {
-        boolean matchesString = Pattern.matches("^([~!@#$%^&*()+{}]?[A-Za-z0-9]){8,}$", "AKtamashBagwan&744");
+        boolean matchesString = Pattern.matches("^([~!@#$%^&*()+{}]?[A-Za-z0-9]){8,}$", "AltamashBagwan&7744");
         return matchesString;
     }
 }
