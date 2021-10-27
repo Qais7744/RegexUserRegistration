@@ -2,10 +2,10 @@ package com.bl.userregistration;
 
 import java.util.regex.Pattern;
 
-public class userRegistration {
+public class UserRegistration {
 
     public boolean passwordSpecialCharacter() {
-        boolean matchesString = Pattern.matches("^[A-Z0-9a-z]{7}[~!@#$%^&*()_+{}:;]{1}$", "As9kmaf&");
+        boolean matchesString = Pattern.matches("^([~!@#$%^&*()+{}]?[A-Za-z0-9]+){8,}$", "Altamash&123");
         return matchesString;
     }
 }
