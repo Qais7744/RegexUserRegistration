@@ -1,15 +1,14 @@
 package com.bl.userregistration;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+import org.junit.Assert;
+import org.junit.Test;
 
 public class UserRegistrationTest {
-    private Assertions Assert;
 
     @Test
-    public void givenPasswordSpecialCharacterWhenShouldReturnTrue() {
+    public void givenPasswordShouldReturnTrueWhenSpecialCharacterHaveTakeAnyOne(){
         UserRegistration userRegistration = new UserRegistration();
-        boolean userTest = userRegistration.passwordSpecialCharacter();
+        boolean userTest = userRegistration.emailTest("abc+100@gmail.com");
         Assert.assertTrue(userTest);
     }
 }

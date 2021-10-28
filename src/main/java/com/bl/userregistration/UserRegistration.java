@@ -3,9 +3,10 @@ package com.bl.userregistration;
 import java.util.regex.Pattern;
 
 public class UserRegistration {
+public static final String EMAIL_TESTS = "^[a-zA-Z0-9+_.-]+[@][a-zA-Z0-9]+[.a-z]{4}([.a-zA-Z,]{3})*$";
 
-    public boolean passwordSpecialCharacter() {
-        boolean matchesString = Pattern.matches("^([~!@#$%^&*()+{}]?[A-Za-z0-9]){8,}$", "AltamashBagwan&7744");
+        public boolean emailTest(String email) {
+        boolean matchesString = Pattern.matches(EMAIL_TESTS, email);
         return matchesString;
     }
 }
